@@ -72,11 +72,10 @@ plt.title("Loss vs Iterations")
 # Regression Line
 plt.subplot(1, 2, 2)
 plt.scatter(x, y, label="Data")
-plt.plot(x, w * x + b, label="Regression Line")
+plt.plot(x, w * x + b, label="Regression Line",color="red")
 plt.xlabel("R&D Spend (scaled)")
 plt.ylabel("Profit")
 plt.title("Linear Regression using Gradient Descent")
-plt.legend()
 
 plt.tight_layout()
 plt.show()
@@ -88,7 +87,8 @@ print("Final Bias (b):", b)
 
 ## Output:
 
-<img width="1603" height="767" alt="image" src="https://github.com/user-attachments/assets/b3b63886-6f4d-4cf4-b317-5024e844491d" />
+<img width="1562" height="772" alt="image" src="https://github.com/user-attachments/assets/68ddcaf1-f8b4-442b-b314-ff6649e6b094" />
+
 
 
 
